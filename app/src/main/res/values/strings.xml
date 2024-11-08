@@ -2,93 +2,538 @@
 <resources>
     <string name="app_name">MyDataDisplayer</string>
     <string-array name="names">
-        <item>Zaam-Dox</item>
-        <item>Home Ing</item>
-        <item>Sonair</item>
-        <item>Biodex</item>
-        <item>Alphazap</item>
-        <item>Zathin</item>
-        <item>Treeflex</item>
-        <item>Zaam-Dox</item>
-        <item>Latlux</item>
-        <item>Zaam-Dox</item>
-        <item>Andalax</item>
-
+        <item>Archer Queen</item>
+        <item>Bandit</item>
+        <item>Barbarian Barrel</item>
+        <item>Barbarians</item>
+        <item>Bats</item>
+        <item>Battle Healer</item>
+        <item>Battle Ram</item>
+        <item>Bomber</item>
+        <item>Bowler</item>
+        <item>Cannon</item>
+        <item>Cannon Cart</item>
+        <item>Dark Prince</item>
+        <item>Dart Goblin</item>
+        <item>Electro Dragon</item>
+        <item>Electro Giant</item>
+        <item>Electro Spirit</item>
+        <item>Electro Wizard</item>
+        <item>Elite Barbarians</item>
+        <item>Executioner</item>
+        <item>Fire Spirit</item>
+        <item>Firecracker</item>
+        <item>Fisherman</item>
+        <item>Flying Machine</item>
+        <item>Giant</item>
+        <item>Giant Skeleton</item>
+        <item>Goblin Barrel</item>
+        <item>Goblin Cage</item>
+        <item>Goblin Drill</item>
+        <item>Goblin Gang</item>
+        <item>Goblin Giant</item>
+        <item>Goblins</item>
+        <item>Golden Knight</item>
+        <item>Golem</item>
+        <item>Graveyard</item>
+        <item>Guards</item>
+        <item>Heal Spirit</item>
+        <item>Hog Rider</item>
+        <item>Hunter</item>
+        <item>Ice Golem</item>
+        <item>Ice Spirit</item>
+        <item>Ice Wizard</item>
+        <item>Inferno Dragon</item>
+        <item>Inferno Tower</item>
+        <item>Knight</item>
+        <item>Lava Hound</item>
+        <item>Lightning</item>
+        <item>Lumberjack</item>
+        <item>Magic Archer</item>
+        <item>Mega Knight</item>
+        <item>Mighty Miner</item>
+        <item>Miner</item>
+        <item>Mini P.E.K.K.A</item>
+        <item>Minion Horde</item>
+        <item>Minions</item>
+        <item>Mirror</item>
+        <item>Monk</item>
+        <item>Mortar</item>
+        <item>Mother Witch</item>
+        <item>Musketeer</item>
+        <item>Night Witch</item>
+        <item>P.E.K.K.A</item>
+        <item>Prince</item>
+        <item>Princess</item>
+        <item>Rage</item>
+        <item>Ram Rider</item>
+        <item>Rocket</item>
+        <item>Royal Delivery</item>
+        <item>Royal Giant</item>
+        <item>Royal Hogs</item>
+        <item>Royal Recruits</item>
+        <item>Skeleton Army</item>
+        <item>Skeleton Barrel</item>
+        <item>Skeleton Dragons</item>
+        <item>Skeletons</item>
+        <item>Spear Goblins</item>
+        <item>Tesla</item>
+        <item>The Log</item>
+        <item>Three Musketeers</item>
+        <item>Tombstone</item>
+        <item>Tornado</item>
+        <item>Valkyrie</item>
+        <item>Wall Breakers</item>
+        <item>Witch</item>
+        <item>Wizard</item>
+        <item>X-Bow</item>
+        <item>Zappies</item>
     </string-array>
 
     <string-array name="elixirs">
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>5</item>
+        <item>3</item>
         <item>6</item>
-        <item>9</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+        <item>4</item>
+        <item>6</item>
+        <item>5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>2</item>
+        <item>4</item>
         <item>8</item>
         <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
         <item>6</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>3</item>
+        <item>.</item>
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>7</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>6</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>6</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
         <item>9</item>
+        <item>3</item>
+        <item>3</item>
         <item>5</item>
         <item>2</item>
-        <item>9</item>
-        <item>2</item>
-        <item>2</item>
-
+        <item>5</item>
     </string-array>
 
     <string-array name="types">
-        <item>rizatriptan benzoate</item>
-        <item>avobenzone, homosalate, octisalate, octocrylene</item>
-        <item>Benzocaine</item>
-        <item>sodium monofluorophosphate</item>
-        <item>Glipizide and Metformin Hydrochloride</item>
-        <item>Carbidopa and Levodopa</item>
-        <item>Dextromethorphan Hydrobromide, Doxylamine Succinate</item>
-        <item>Trazodone Hydrochloride</item>
-        <item>Citric Acid Monohydrate</item>
-        <item>ETHYL ALCOHOL</item>
-        <item>Tolnaftate</item>
-
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Building</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Spell</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Troop</item>
+        <item>Building</item>
+        <item>Troop</item>
     </string-array>
 
     <string-array name="rarities">
-        <item>Rizatriptan Benzoate</item>
-        <item>Ocean Potion Instant Dry 30 Mist Sport Sunscreen</item>
-        <item>Good Neighbor Pain Relief</item>
-        <item>Aquafresh</item>
-        <item>Glipizide and Metformin Hydrochloride</item>
-        <item>Nail Active Daytime Anti-fungal</item>
-        <item>Carbidopa and Levodopa</item>
-        <item>Night Time Cough</item>
-        <item>Trazodone Hydrochloride</item>
-        <item>stop hair</item>
-        <item>KROGER</item>
-
+        <item>Champion</item>
+        <item>Legendary</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Legendary</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Champion</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Legendary</item>
+        <item>Champion</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Champion</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Rare</item>
+        <item>Common</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Common</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Epic</item>
+        <item>Rare</item>
+        <item>Common</item>
+        <item>Legendary</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Common</item>
     </string-array>
 
     <string-array name="hps">
-        <item>52</item>
-        <item>883</item>
-        <item>141</item>
-        <item>262</item>
-        <item>660</item>
-        <item>1462</item>
-        <item>1388</item>
-        <item>1189</item>
-        <item>1402</item>
-        <item>652</item>
-        <item>1103</item>
-
+        <item>1600</item>
+        <item>700</item>
+        <item>NA</item>
+        <item>648</item>
+        <item>150</item>
+        <item>1100</item>
+        <item>1560</item>
+        <item>320</item>
+        <item>1200</item>
+        <item>780</item>
+        <item>1008</item>
+        <item>1440</item>
+        <item>240</item>
+        <item>900</item>
+        <item>2700</item>
+        <item>60</item>
+        <item>540</item>
+        <item>804</item>
+        <item>1080</item>
+        <item>100</item>
+        <item>280</item>
+        <item>720</item>
+        <item>440</item>
+        <item>3300</item>
+        <item>1800</item>
+        <item>NA</item>
+        <item>1000</item>
+        <item>NA</item>
+        <item>220</item>
+        <item>3000</item>
+        <item>140</item>
+        <item>1400</item>
+        <item>4800</item>
+        <item>NA</item>
+        <item>280</item>
+        <item>150</item>
+        <item>1400</item>
+        <item>800</item>
+        <item>1152</item>
+        <item>150</item>
+        <item>480</item>
+        <item>640</item>
+        <item>1100</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3000</item>
+        <item>720</item>
+        <item>800</item>
+        <item>2100</item>
+        <item>1440</item>
+        <item>900</item>
+        <item>720</item>
+        <item>140</item>
+        <item>300</item>
+        <item>NA</item>
+        <item>1000</item>
+        <item>880</item>
+        <item>18</item>
+        <item>1800</item>
+        <item>360</item>
+        <item>320</item>
+        <item>1080</item>
+        <item>1800</item>
+        <item>340</item>
+        <item>NA</item>
+        <item>1680</item>
+        <item>NA</item>
+        <item>360</item>
+        <item>1600</item>
+        <item>1200</item>
+        <item>480</item>
+        <item>1280</item>
+        <item>140</item>
+        <item>1000</item>
+        <item>240</item>
+        <item>1400</item>
+        <item>NA</item>
+        <item>1080</item>
+        <item>480</item>
+        <item>NA</item>
+        <item>900</item>
+        <item>448</item>
+        <item>800</item>
+        <item>720</item>
+        <item>3000</item>
+        <item>360</item>
     </string-array>
 
     <string-array name="ranges">
-        <item>9.8</item>
-        <item>10.0</item>
-        <item>8.2</item>
-        <item>3.9</item>
-        <item>0.6</item>
-        <item>9.5</item>
-        <item>9.1</item>
-        <item>2.1</item>
-        <item>9.9</item>
-        <item>4.1</item>
-        <item>8.3</item>
-
+        <item>5</item>
+        <item>Melee</item>
+        <item>4</item>
+        <item>Melee</item>
+        <item>2</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>4.5</item>
+        <item>5.5</item>
+        <item>5.5</item>
+        <item>5</item>
+        <item>Melee</item>
+        <item>6.5</item>
+        <item>3.5</item>
+        <item>Melee</item>
+        <item>0.5</item>
+        <item>4</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>0.5</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>4</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>2.5</item>
+        <item>5.5</item>
+        <item>5</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>3</item>
+        <item>Melee</item>
+        <item>2.5</item>
+        <item>Melee</item>
+        <item>5</item>
+        <item>Melee</item>
+        <item>0.5</item>
+        <item>5.5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>Melee</item>
+        <item>Air</item>
+        <item>NA</item>
+        <item>Melee</item>
+        <item>6</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>NA</item>
+        <item>Melee</item>
+        <item>6.5</item>
+        <item>Melee</item>
+        <item>5</item>
+        <item>Melee</item>
+        <item>7</item>
+        <item>NA</item>
+        <item>Melee</item>
+        <item>7</item>
+        <item>4.5</item>
+        <item>Melee</item>
+        <item>6.5</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>Air</item>
+        <item>Melee</item>
+        <item>NA</item>
+        <item>5.5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>NA</item>
+        <item>5</item>
+        <item>4</item>
+        <item>NA</item>
+        <item>Melee</item>
+        <item>Melee</item>
+        <item>5</item>
+        <item>5.5</item>
+        <item>7</item>
+        <item>2.5</item>
     </string-array>
 
 

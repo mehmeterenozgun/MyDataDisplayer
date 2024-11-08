@@ -31,7 +31,7 @@ class Data (private val context: Context){
         val ranges= getRange()
         val info = mutableListOf<Character>()
 
-        for (i in 0..(names.size-1)) {
+        for (i in names.indices) {
             val name = names[i]
             val elixir = elixirs[i]
             val type = types[i]
