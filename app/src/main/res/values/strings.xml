@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">MyDataDisplayer</string>
+    <string-array name="names">
+        <item>Zaam-Dox</item>
+        <item>Home Ing</item>
+        <item>Sonair</item>
+        <item>Biodex</item>
+        <item>Alphazap</item>
+        <item>Zathin</item>
+        <item>Treeflex</item>
+        <item>Zaam-Dox</item>
+        <item>Latlux</item>
+        <item>Zaam-Dox</item>
+        <item>Andalax</item>
+
+    </string-array>
+
+    <string-array name="elixirs">
+        <item>6</item>
+        <item>9</item>
+        <item>8</item>
+        <item>5</item>
+        <item>6</item>
+        <item>9</item>
+        <item>5</item>
+        <item>2</item>
+        <item>9</item>
+        <item>2</item>
+        <item>2</item>
+
+    </string-array>
+
+    <string-array name="types">
+        <item>rizatriptan benzoate</item>
+        <item>avobenzone, homosalate, octisalate, octocrylene</item>
+        <item>Benzocaine</item>
+        <item>sodium monofluorophosphate</item>
+        <item>Glipizide and Metformin Hydrochloride</item>
+        <item>Carbidopa and Levodopa</item>
+        <item>Dextromethorphan Hydrobromide, Doxylamine Succinate</item>
+        <item>Trazodone Hydrochloride</item>
+        <item>Citric Acid Monohydrate</item>
+        <item>ETHYL ALCOHOL</item>
+        <item>Tolnaftate</item>
+
+    </string-array>
+
+    <string-array name="rarities">
+        <item>Rizatriptan Benzoate</item>
+        <item>Ocean Potion Instant Dry 30 Mist Sport Sunscreen</item>
+        <item>Good Neighbor Pain Relief</item>
+        <item>Aquafresh</item>
+        <item>Glipizide and Metformin Hydrochloride</item>
+        <item>Nail Active Daytime Anti-fungal</item>
+        <item>Carbidopa and Levodopa</item>
+        <item>Night Time Cough</item>
+        <item>Trazodone Hydrochloride</item>
+        <item>stop hair</item>
+        <item>KROGER</item>
+
+    </string-array>
+
+    <string-array name="hps">
+        <item>52</item>
+        <item>883</item>
+        <item>141</item>
+        <item>262</item>
+        <item>660</item>
+        <item>1462</item>
+        <item>1388</item>
+        <item>1189</item>
+        <item>1402</item>
+        <item>652</item>
+        <item>1103</item>
+
+    </string-array>
+
+    <string-array name="ranges">
+        <item>9.8</item>
+        <item>10.0</item>
+        <item>8.2</item>
+        <item>3.9</item>
+        <item>0.6</item>
+        <item>9.5</item>
+        <item>9.1</item>
+        <item>2.1</item>
+        <item>9.9</item>
+        <item>4.1</item>
+        <item>8.3</item>
+
+    </string-array>
+
+
+</resources>
