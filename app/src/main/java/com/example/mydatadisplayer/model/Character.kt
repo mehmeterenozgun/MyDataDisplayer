@@ -1,11 +1,10 @@
-package com.example.mydatadisplayer
+package com.example.mydatadisplayer.model
 
-import java.io.Serializable
 
 class Character (val name: String,
                  val elixir: String,
                  val type: String,
                  val rarity: String,
                  val hp: String,
-                 val range: String): Serializable {
+                 val range: String){
 }

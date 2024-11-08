@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mydatadisplayer.adapter.Adapter
+import com.example.mydatadisplayer.data.DataResource
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,9 +19,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val info = Data(this).loadAll()
-        val recyclerv: RecyclerView = findViewById(R.id.list)
-        recyclerv.adapter = Adapter(info)
-        recyclerv.setHasFixedSize(true)
+        val info = DataResource(this).loadAll()
+        val characters: RecyclerView = findViewById(R.id.list)
+        characters.adapter = Adapter(info)
+        characters.setHasFixedSize(true)
     }
 }

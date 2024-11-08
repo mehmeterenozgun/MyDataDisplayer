@@ -1,19 +1,19 @@
-package com.example.mydatadisplayer
+package com.example.mydatadisplayer.adapter
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mydatadisplayer.CharDetailActivity
+import com.example.mydatadisplayer.R
+import com.example.mydatadisplayer.model.Character
 
 class Adapter(private val dataset: List<Character>): RecyclerView.Adapter<Adapter.MyViewHolder>() {
-    class MyViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val NameView= view.findViewById<TextView>(R.id.justName)
-
-
-        lateinit var info: Character
+    class MyViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
+        private lateinit var info: Character
+        val NameView : TextView= view.findViewById(R.id.justName)
 
         init{
             view.setOnClickListener{
@@ -26,17 +26,12 @@ class Adapter(private val dataset: List<Character>): RecyclerView.Adapter<Adapte
                 intent.putExtra(CharDetailActivity.CHAR_RANGE, info.range)
 
                 itemView.context.startActivity(intent)
-
             }
         }
-
-        @SuppressLint("SetTextI18n")
         fun bind(info: Character){
             this.info = info
             NameView.text = info.name
-
         }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -47,13 +42,8 @@ class Adapter(private val dataset: List<Character>): RecyclerView.Adapter<Adapte
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val item = dataset[position]
-        if(item != null) {
-            holder.bind(item)
-
-        }
-
+        holder.bind(item)
     }
-
 
     override fun getItemCount(): Int {
         return dataset.size

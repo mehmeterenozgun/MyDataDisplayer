@@ -1,34 +1,37 @@
-package com.example.mydatadisplayer
+package com.example.mydatadisplayer.data
 
 import android.content.Context
+import com.example.mydatadisplayer.model.Character
+import com.example.mydatadisplayer.R
 
-class Data (private val context: Context){
-    private fun getName(): Array<String> {
+class DataResource (private val context: Context){
+    private fun getNames(): Array<String> {
         return context.resources.getStringArray(R.array.names)
     }
-    private fun getElixir(): Array<String> {
+    private fun getElixirs(): Array<String> {
         return context.resources.getStringArray(R.array.elixirs)
     }
-    private fun getType(): Array<String> {
+    private fun getTypes(): Array<String> {
         return context.resources.getStringArray(R.array.types)
     }
-    private fun getRarity(): Array<String>{
+    private fun getRarities(): Array<String>{
         return context.resources.getStringArray(R.array.rarities)
     }
-    private fun getHP(): Array<String>{
+    private fun getHPs(): Array<String>{
         return context.resources.getStringArray(R.array.hps)
     }
-    private fun getRange(): Array<String>{
+    private fun getRanges(): Array<String>{
         return context.resources.getStringArray(R.array.ranges)
     }
 
     fun loadAll(): List<Character> {
-        val names = getName()
-        val elixirs = getElixir()
-        val types = getType()
-        val rarities = getRarity()
-        val hps= getHP()
-        val ranges= getRange()
+        val names = getNames()
+        val elixirs = getElixirs()
+        val types = getTypes()
+        val rarities = getRarities()
+        val hps= getHPs()
+        val ranges= getRanges()
+
         val info = mutableListOf<Character>()
 
         for (i in names.indices) {
@@ -38,8 +41,7 @@ class Data (private val context: Context){
             val rarity = rarities[i]
             val hp = hps[i]
             val range = ranges[i]
-            val addInfo = Character(name, elixir, type, rarity, hp, range)
-            info.add(addInfo)
+            info.add(Character(name, elixir, type, rarity, hp, range))
         }
         return info
     }

@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.databinding.DataBindingUtil
+import com.example.mydatadisplayer.databinding.ActivityCharDetailBinding
 
 class CharDetailActivity : AppCompatActivity() {
 
@@ -15,31 +17,16 @@ class CharDetailActivity : AppCompatActivity() {
         const val CHAR_NAME = "char_name"
         const val CHAR_ELIXIR = "char_elixir"
         const val CHAR_TYPE = "char_type"
-        const val CHAR_RARITY = "char_rarity"
+        const val CHAR_RARITY = "char_raritie"
         const val CHAR_HP = "char_hp"
         const val CHAR_RANGE = "char_range"
     }
-
-    private lateinit var charNameTextView: TextView
-    private lateinit var charElixirTextView: TextView
-    private lateinit var charTypeTextView: TextView
-    private lateinit var charRarityTextView: TextView
-    private lateinit var charHPTextView: TextView
-    private lateinit var charRangeTextView: TextView
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_char_detail)
-
-
-        charNameTextView = findViewById(R.id.name)
-        charElixirTextView = findViewById(R.id.elixir)
-        charTypeTextView = findViewById(R.id.type)
-        charRarityTextView = findViewById(R.id.rarity)
-        charHPTextView = findViewById(R.id.hp)
-        charRangeTextView = findViewById(R.id.range)
+        val binding : ActivityCharDetailBinding = DataBindingUtil.setContentView(this, R.layout.activity_char_detail)
 
         val charName = intent.getStringExtra(CHAR_NAME)
         val charElixir = intent.getStringExtra(CHAR_ELIXIR)
@@ -48,24 +35,17 @@ class CharDetailActivity : AppCompatActivity() {
         val charHP = intent.getStringExtra(CHAR_HP)
         val charRange = intent.getStringExtra(CHAR_RANGE)
 
-        charNameTextView.text = charName
-        charElixirTextView.text = charElixir
-        charTypeTextView.text = charType
-        charRarityTextView.text = charRarity
-        charHPTextView.text = charHP
-        charRangeTextView.text = charRange
+        binding.name.text = charName
+        binding.elixir.text = charElixir
+        binding.type.text = charType
+        binding.rarity.text = charRarity
+        binding.hp.text = charHP
+        binding.range.text = charRange
 
-
-
-
-/*        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
-
         }
-
- */
     }
 }
